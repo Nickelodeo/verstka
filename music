@@ -1,0 +1,278 @@
+<html>
+  <head>
+    <style>
+    body {
+  background-color: #EEEEEE;
+}
+.header1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  width: 280px;
+  height: 30px;
+  padding: 15px;
+}
+a {
+  color: black;
+  font-size: 20px; 
+  text-decoration: none;
+}
+.menu a {
+  margin: auto;
+}
+.menu {
+  width: 120px;
+  height: 30px;
+  padding: 15px;
+  display: flex;
+}
+.right-header {
+  display: flex;
+  flex-direction: row;
+}
+.osnova {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  bottom: 0;
+}
+h1 {
+  font-size: 30px;
+}
+input {
+  height: 20px;
+  border: 0px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.submit {
+  width: 150px;
+  height: 30px;
+  background-color: #F1C40F;
+  font-weight: 800;
+}
+.knopka {
+ width: 275px;
+  height: 28px;
+}
+.dovidosa {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.logotip{
+  margin-right: 40px;
+}
+.podpis {
+  display: flex;
+  flex-flow: column;
+} 
+.fa {
+color: #FF8C00;
+}
+.fire {
+  padding-right: 27px;
+}
+header {
+  position: fixed;
+  background-color: #EEEEEE;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  top: 0;
+}
+.video {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.kartochki {
+  display: flex;
+  flex-direction: row;
+}
+.kartonka {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border: solid 1px;
+  align-items: center;
+  width: 25%;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-grow: ;
+}
+.stroka1 {
+  padding: 20px;
+  font-weight: 1000;
+  font-size: 25px
+}
+.stroka2 {
+  padding: 5px;
+}
+.zagolovok {
+  align-self: stretch;
+  padding: 20px;
+  padding-left: 80px;
+  background-color: #DDDDDD;
+  font-weight: 1000;
+}
+.select {
+  padding: 20px;
+}
+.kartochki input {
+  background-color: #F1C40F;
+  margin: 20px;
+  width: 130px;
+  height: 35px;
+  border: 0px;
+}
+footer {
+  background-color: #ddd;
+  weight: px;
+  width: 1100px;
+  margin: 20px;
+  margin-bottom: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+  flex: 0 0 auto;
+}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.href {
+  padding:8px;
+}
+.footer a {
+  padding: 10px;
+}
+    </style>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <div class="header1">
+      <div>
+        <img  class="logo" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png">
+      </div>
+      <div class="right-header">
+    <div class="menu">  
+      <a href="#Features">Features</a>
+      </div>
+         <div class="menu">  
+      <a href="#video">How It Works</a>
+      </div>
+         <div class="menu">  
+      <a href="#price">Pricing</a>
+      </div>
+      </div>
+      </div>
+    </header>
+    <div class="osnova">
+      <div>
+      <h1>Handcrafted, home-made masterpieces</h1>
+      </div>
+        <form>
+      <div>
+        <input type="text" required size="43px" class="knopka" placeholder="Enter your email adress">  </div>
+          <div style="padding: 15px">  <input class="submit" type="submit" size="30px" value="GET STARTED">
+      </div>
+         </form>
+      <div class="dovidosa" id="Features">
+        <div class="cont">
+          <div class="logotip fire">
+            <i class="fa fa-3x fa-fire" aria-hidden="true"></i>
+          </div>
+          <div class="podpis">
+                  <div style="font-weight: 800; font-size: 30px;">
+                    Premium Materials
+            </div>
+            <div style="font-size: 20px">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</div>
+          </div>
+        </div>
+         <div class="cont">
+          <div class="logotip">
+            <i class="fa fa-3x fa-truck" aria-hidden="true"></i>
+          </div>
+          <div class="podpis">
+            <div  style="font-weight: 800; font-size: 30px;">Fast Shipping</div>
+            <div style="font-size: 20px">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</div>
+          </div>
+        </div>
+         <div class="cont">
+          <div class="logotip">
+            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+
+          </div>
+          <div class="podpis">
+                  <div  style="font-weight: 800; font-size: 30px;">Quality Assurance</div>
+            <div style="font-size: 20px">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</div>
+          </div>
+        </div>
+     
+    </div>
+    <div class="video" id="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+ </video>
+    </div>
+    <div class="kartochki" id="price">
+      <div class="kartonka">
+        <div class="zagolovok">TENOR TROMBONE</div>
+        <div class="stroka1">600$</div>
+        <div class="stroka2">Lorem ipsum.</div>
+        <div class="stroka2">Lorem ipsum.</div>
+        <div class="stroka2">Lorem ipsum dolor.</div>
+        <div class="stroka2">Lorem ipsum.</div>
+        <div><input type="submit" value="Select"></div>
+      </div>
+        <div class="kartonka">
+          <div class="zagolovok">BASS TROMBONE</div>
+          <div class="stroka1">900$</div>
+          <div class="stroka2">Lorem ipsum.</div>
+          <div class="stroka2">Lorem ipsum.</div>
+          <div class="stroka2">Lorem ipsum dolor.</div>
+          <div class="stroka2">Lorem ipsum.</div>
+          <div><input type="submit" value="Select"></div>
+      </div>
+        <div class="kartonka">
+          <div class="zagolovok">VALVE TROMBONE</div>
+          <div class="stroka1">1200$</div>
+          <div class="stroka2">Plays similar to a Trumpet</div>
+          <div class="stroka2">Great for Jazz Bands</div>
+          <div class="stroka2">Lorem ipsum dolor.</div>
+          <div class="stroka2">Lorem ipsum.</div>
+          <div><input type="submit" value="Select"></div>
+      </div>
+    </div>
+    <footer>
+    <div class="footer1">
+      <div class="footer2">
+        <div class="href"> <a href="#"> Privacy</a></div> 
+        <div class="href"> <a href="#">Terms </a></div> 
+          <div class="href"> <a href="#">Contact</a></div>
+      </div>
+        <div>Copyright 2016, Original Trombones</div>
+      </div>
+      </footer>
+    </div>
+  </body>
+</html>
